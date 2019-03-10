@@ -1,0 +1,43 @@
+
+
+header.nav-top {
+    position:fixed;
+    z-index:100;
+    min-height:0;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+header.container {
+    margin: 0;
+    padding: 0;
+}
+
+nav[role="navigation"] {
+    ul.nav {
+        text-align: center;
+        display: block;
+        margin: 0 auto !important;
+        max-width: 1170px;
+        > li {
+            display: inline-block;
+            width: 20%;
+            & > a {
+                span.menu-icon {
+                    background-image: url(#{$icon-directory}/icon_arrow_down_red.svg);
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                    height: 8px;
+                    width: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: @screen-md-min) {
+    header.nav-top {
+        height: 90px;
+    }
+}

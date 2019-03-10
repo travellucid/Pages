@@ -1,0 +1,28 @@
+{
+
+//     "liveServer.settings.root": "/wwwroot",
+//     "liveServer.settings.AdvanceCustomBrowserCmdLine": "C:\\Users\\Barry\\AppData\\Local\\Google\\Chrome SxS\\Application\\chrome.exe --incognito",
+//     "liveSassCompile.settings.formats":[
+//        {
+//            "format": "expanded",
+//            "extensionName": ".css",
+//            "savePath": "/wwwroot/assets/css"
+//        },
+//        {
+//            "extensionName": ".min.css",
+//            "format": "compressed",
+//            "savePath": "/wwwroot/assets/css/dist"
+//        }
+//    ],
+//    "liveSassCompile.settings.excludeList": [
+//       "**/node_modules/**",
+//       ".vscode/**"
+//    ],
+//    "liveSassCompile.settings.generateMap": true,
+//    "liveSassCompile.settings.autoprefix": [
+//        "> 1%",
+//        "last 2 versions"
+//    ]
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "C:\\Users\\barry\\AppData\\Local\\Google\\Chrome SxS\\Application\\chrome.exe --incognito",
+    "liveServer.settings.root" : "/wwwroot"
+}

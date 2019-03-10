@@ -1,0 +1,165 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Montserrat Light"), local("Montserrat-Light"), url(https://fonts.gstatic.com/s/montserrat/v12/JTURjIg1_i6t8kCHKm45_cJD3gfD_u50.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url(https://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"), url(https://fonts.gstatic.com/s/montserrat/v12/JTURjIg1_i6t8kCHKm45_dJE3gfD_u50.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #3e464b;
+  font-size: 14px;
+  letter-spacing: 2px;
+  -webkit-font-smoothing: subpixel-antialiased;
+  min-width: 320px;
+  margin: 0;
+  padding: 0; }
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  letter-spacing: 2px;
+  line-height: 58px;
+  color: #3e464b; }
+
+.main-container {
+  max-width: 100%; }
+  .main-container .row > .col-sm-12 {
+    padding-right: 0;
+    padding-left: 0; }
+
+.header_h1,
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  letter-spacing: 2px;
+  line-height: 58px;
+  font-weight: 700;
+  /* margin: 0 0 15px; */ }
+
+.header_h2,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  letter-spacing: 2px;
+  line-height: 38px;
+  margin-top: 0px;
+  text-align: center;
+  font-weight: 700; }
+
+.header_h3,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 0px;
+  font-weight: 700; }
+
+.header_h4,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 0px;
+  font-weight: 700; }
+
+.header_e,
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 0px;
+  font-weight: 700; }
+
+.header_f,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 0px;
+  font-weight: 700; }
+
+.header_g,
+h7 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  margin-top: 0px;
+  font-weight: 700; }
+
+header.nav-top {
+  position: fixed;
+  z-index: 100;
+  min-height: 0;
+  top: 0;
+  width: 100%;
+  max-width: 100%; }
+
+header.container {
+  margin: 0;
+  padding: 0; }
+
+nav[role="navigation"] ul.nav {
+  text-align: center;
+  display: block;
+  margin: 0 auto !important;
+  max-width: 1170px; }
+  nav[role="navigation"] ul.nav > li {
+    display: inline-block;
+    width: 20%; }
+    nav[role="navigation"] ul.nav > li > a span.menu-icon {
+      background-image: url(/assets/image/icons/icon_arrow_down_red.svg);
+      background-repeat: no-repeat;
+      display: inline-block;
+      height: 8px;
+      width: 15px; }
+
+@media screen and (min-width: 991px) {
+  header.nav-top {
+    height: 90px; } }
+
+#hero-component.container-fluid {
+  padding-right: 0;
+  padding-left: 0; }
+
+#hero-component .hero-container {
+  height: 100vh;
+  margin-bottom: 0;
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  width: 100%; }
+  #hero-component .hero-container .hero-image {
+    background-image: url("/assets/image/NW-Hero-Banner-Sea-King2a.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0; }
+  #hero-component .hero-container .hero-inner-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }

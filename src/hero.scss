@@ -1,0 +1,34 @@
+
+#hero-component {
+    &.container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .hero-container { 
+		height: 100vh;
+		margin-bottom: 0;
+		overflow: hidden;
+		padding-left: 0;
+		padding-right: 0;
+		position: relative;
+        width: 100%;    
+        .hero-image {
+            background-image: url("/assets/image/NW-Hero-Banner-Sea-King2a.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .hero-inner-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+    }
+}

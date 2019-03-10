@@ -1,0 +1,30 @@
+
+
+body {
+    font-family: $font-family-base;
+    color: #3e464b;
+    font-size: 14px;
+    letter-spacing: 2px;
+    -webkit-font-smoothing: subpixel-antialiased;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+	font-family: $font-family-base;
+    font-size: 48px;
+    letter-spacing: 2px;
+    line-height: 58px;
+    color: #3e464b;
+}
+
+.main-container {
+    max-width: 100%;
+    .row > .col-sm-12 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+}
+
